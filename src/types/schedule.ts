@@ -1,14 +1,4 @@
-# Events Scheduleing system Microservice API
-
-Event Scheduler similar to calendar events
-
-Event Scheduler is a microservice that allows users to create, update, and delete events.
-Events run on the given date and time schedule ; they can be recurring or not.
-
-## Schedule Object
-
-```ts
-{
+type Schedule={
     id:string,
     repeating: boolean,
     triggerAt: Date,//null if not repeating
@@ -29,4 +19,3 @@ Events run on the given date and time schedule ; they can be recurring or not.
     status: "done" | "pending" | "error",
     nextRunningTime: Date,
 }
-```
