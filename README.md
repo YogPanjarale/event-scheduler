@@ -30,3 +30,7 @@ Events run on the given date and time schedule ; they can be recurring or not.
     nextRunningTime: Date,
 }
 ```
+
+ref link
+- https://www.npmjs.com/package/cron-parser
+- https://codepen.io/greg_h/pen/GpNXNY
