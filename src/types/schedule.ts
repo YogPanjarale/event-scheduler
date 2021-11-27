@@ -1,4 +1,4 @@
-type Schedule={
+export interface  ISchedule{
     id:string,
     repeating: boolean,
     triggerAt: Date,//null if not repeating
