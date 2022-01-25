@@ -1,0 +1,26 @@
+{
+  "name": "event-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogPanjarale/event-scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YogPanjarale/event-scheduler/issues"
+  },
+  "homepage": "https://github.com/YogPanjarale/event-scheduler#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
